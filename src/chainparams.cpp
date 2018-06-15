@@ -121,8 +121,8 @@ public:
 
         genesis = CreateGenesisBlock(1317972665, 2085106042, 0x1e0ffff0, 1, 10 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0xc64ad033285d7adb73382a8a0fbefcbad1af77f5c3579363ddeb48edfbb69689"));
-        assert(genesis.hashMerkleRoot == uint256S("0xc85f6c3cd1c85b858fd2092197d15dabb30a33514e22fc6c55768cd847fc3f5c"));
+        assert(consensus.hashGenesisBlock == uint256S("0x"));
+        assert(genesis.hashMerkleRoot == uint256S("0x"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
         //vSeeds.push_back(CDNSSeedData("loshan.co.uk", "seed-a.litecoineco.loshan.co.uk", true));
